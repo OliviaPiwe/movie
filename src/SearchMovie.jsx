@@ -31,7 +31,6 @@ export function SearchMovie() {
     setMovies(fetchedMovies);
   }
 
-  // for params
   useEffect(() => {
     const movieTitle = searchParams.get("query");
     if (movieTitle) {
