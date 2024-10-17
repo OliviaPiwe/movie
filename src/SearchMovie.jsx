@@ -2,7 +2,6 @@ import { fetchMovie } from "./fetchMovies";
 import { useRef, useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 
-// ??
 function serializeFormQuery(form) {
   const formData = new FormData(form);
   const params = new URLSearchParams();
