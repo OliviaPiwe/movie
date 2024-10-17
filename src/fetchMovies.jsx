@@ -1,7 +1,6 @@
 const newKey = import.meta.env.VITE_NEW_KEY;
-
 export async function fetchMovie(movieName) {
-  const link = `http://www.omdbapi.com/?apikey=${newKey}&s=${encodeURIComponent(
+  const link = `https://www.omdbapi.com/?apikey=${newKey}&s=${encodeURIComponent(
     movieName
   )}`;
 
